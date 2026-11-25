@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://netrate-pro-landing.vercel.app/sitemap.xml
