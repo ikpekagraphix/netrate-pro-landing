@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ===== SEO START ===== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NetRate Pro | Free Freelancer Invoice Calculator for Upwork, Fiverr, PayPal, Wise & Grey in Nigeria & Africa</title>
+  <meta name="description" content="NetRate Pro is a free tool for Nigerian & African freelancers to calculate the exact gross amount to bill on Upwork, Fiverr, Payoneer, Wise, PayPal & Grey so fees & FX spreads don't eat your pay. Generate a professional PDF invoice with W-8BEN note in 1 click. No signup.">
+  <meta name="keywords" content="freelancer invoice calculator Nigeria, Upwork fee calculator, Fiverr calculator, PayPal fee calculator Nigeria, Grey invoice, Wise calculator, W-8BEN invoice, African freelancer tool, how much to charge Upwork">
+  <meta name="author" content="NetRate Pro">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://netrate-pro.vercel.app/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://netrate-pro.vercel.app/">
+  <meta property="og:title" content="NetRate Pro - Stop Losing Money On Every Invoice">
+  <meta property="og:description" content="Calculate exactly what to bill on Upwork, Fiverr, PayPal, Wise, Payoneer & Grey. Get a professional PDF invoice with W-8BEN note in 1 click. Free, no signup.">
+  <meta property="og:image" content="https://netrate-pro.vercel.app/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="NetRate Pro - Invoice Right. Get Paid Fully.">
+  <meta property="twitter:description" content="Free calculator for African freelancers billing international clients. Don't lose 10-20% to fees.">
+  <meta property="twitter:image" content="https://netrate-pro.vercel.app/og-image.jpg">
+
+  <!-- JSON-LD Schema for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "NetRate Pro",
+    "url": "https://netrate-pro.vercel.app/",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "description": "Free calculator for African freelancers to calculate gross billing amount on Upwork, Fiverr, Payoneer, Wise, PayPal, Grey and generate PDF invoice with W-8BEN note.",
+    "audience": { "@type": "Audience", "audienceType": "Freelancers in Nigeria and Africa" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"How much should I charge on Upwork to receive $500?","acceptedAnswer":{"@type":"Answer","text":"You must bill more than $500 to cover Upwork fees and FX spread. NetRate Pro calculates the exact gross amount for you."}},
+      {"@type":"Question","name":"What is W-8BEN for freelancers?","acceptedAnswer":{"@type":"Answer","text":"W-8BEN is a US tax form that allows non-US freelancers to claim tax exemption or reduced withholding when working for US clients."}},
+      {"@type":"Question","name":"Is NetRate Pro free?","acceptedAnswer":{"@type":"Answer","text":"Yes, NetRate Pro is 100% free with no signup required."}}
+    ]
+  }
+  </script>
+  <!-- ===== SEO END ===== -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>body{font-family:'Inter',sans-serif} .hero-bg{background:linear-gradient(135deg,#0F172A 0%,#0A3D2E 100%)}</style>
+</head>
+<body class="bg-white text-slate-900">
+
+  <!-- NAV -->
+  <nav class="max-w-7xl mx-auto flex justify-between items-center px-6 py-5">
+    <div class="font-black text-2xl">NetRate<span class="text-emerald-600">Pro</span></div>
+    <a href="https://netrate-pro.vercel.app/" class="bg-emerald-600 text-white px-5 py-2.5 rounded-full font-bold text-sm">Use Free Calculator →</a>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero-bg text-white">
+    <div class="max-w-7xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full text-xs font-bold">FREE FOR NIGERIAN & AFRICAN FREELANCERS</span>
+        <h1 class="text-4xl md:text-6xl font-black leading-tight mt-5">Stop Losing Money On Every Invoice.</h1>
+        <p class="text-slate-300 text-lg mt-5">Calculate the <strong class="text-white">exact gross amount</strong> to bill on Upwork, Fiverr, Payoneer, Wise, PayPal & Grey — so fees and FX spreads don't eat into your take-home pay. Then generate a professional PDF invoice with W-8BEN note in 1 click.</p>
+        <div class="flex gap-3 mt-8">
+          <a href="https://netrate-pro.vercel.app/" class="bg-emerald-500 hover:bg-emerald-400 text-white px-7 py-3.5 rounded-full font-bold">Calculate My Rate Now →</a>
+          <a href="#how" class="border border-white/30 px-6 py-3.5 rounded-full font-bold">How It Works</a>
+        </div>
+        <p class="text-xs text-slate-400 mt-4">✓ No signup &nbsp; ✓ 100% Free &nbsp; ✓ Used by 1,200+ freelancers</p>
+      </div>
+      <!-- CALCULATOR PREVIEW CARD -->
+      <div class="bg-white text-slate-900 rounded-3xl p-6 shadow-2xl">
+        <h3 class="font-bold text-lg">Example: You Want To Receive $500</h3>
+        <div class="mt-4 space-y-3 text-sm">
+          <div class="flex justify-between bg-slate-50 p-3 rounded-xl"><span>Platform: Upwork (10%)</span><span class="font-bold">-$55.56</span></div>
+          <div class="flex justify-between bg-slate-50 p-3 rounded-xl"><span>FX Spread / Withdrawal</span><span class="font-bold">-$18.00</span></div>
+          <div class="flex justify-between bg-emerald-50 p-4 rounded-xl border border-emerald-200"><span class="font-bold">You Must Bill:</span><span class="font-black text-emerald-700 text-xl">$573.56</span></div>
+        </div>
+        <a href="https://netrate-pro.vercel.app/" class="block text-center bg-slate-900 text-white py-3.5 rounded-full font-bold mt-5">Try Your Own Calculation →</a>
+        <p class="text-center text-xs text-slate-500 mt-3">Takes less than 30 seconds</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- LOGOS / PLATFORMS -->
+  <section class="max-w-7xl mx-auto px-6 py-10 text-center">
+    <p class="text-slate-500 text-sm font-semibold tracking-widest">WORKS WITH YOUR FAVORITE PLATFORMS</p>
+    <div class="flex flex-wrap justify-center gap-3 mt-5">
+      <span class="px-5 py-2 bg-slate-100 rounded-full font-bold">Upwork</span>
+      <span class="px-5 py-2 bg-slate-100 rounded-full font-bold">Fiverr</span>
+      <span class="px-5 py-2 bg-slate-100 rounded-full font-bold">PayPal</span>
+      <span class="px-5 py-2 bg-slate-100 rounded-full font-bold">Wise</span>
+      <span class="px-5 py-2 bg-slate-100 rounded-full font-bold">Payoneer</span>
+      <span class="px-5 py-2 bg-slate-100 rounded-full font-bold">Grey</span>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="bg-slate-50 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-black text-center">You Invoice $500. You Receive $430. Why?</h2>
+      <div class="grid md:grid-cols-3 gap-6 mt-10">
+        <div class="bg-white p-6 rounded-2xl shadow-sm"><h3 class="font-bold text-xl">1. Platform Fees</h3><p class="text-slate-600 mt-2">Upwork takes 10%, Fiverr takes 20%, PayPal takes ~4.4% + fixed fee. If you don't add it, you pay it.</p></div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm"><h3 class="font-bold text-xl">2. FX Spread</h3><p class="text-slate-600 mt-2">Google says $1 = ₦1,550 but Grey/Wise/Payoneer gives you less. That difference is your hidden loss.</p></div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm"><h3 class="font-bold text-xl">3. Wrong Invoicing</h3><p class="text-slate-600 mt-2">Most freelancers bill their take-home amount, not their gross amount. NetRate Pro fixes that math.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how" class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl md:text-4xl font-black text-center">How It Works In 30 Seconds</h2>
+    <div class="grid md:grid-cols-3 gap-6 mt-10 text-center">
+      <div><div class="w-14 h-14 bg-emerald-600 text-white rounded-full flex items-center justify-center font-black text-xl mx-auto">1</div><h3 class="font-bold mt-4">Enter Your Target</h3><p class="text-slate-600">How much do you want to actually receive? e.g. $500</p></div>
+      <div><div class="w-14 h-14 bg-emerald-600 text-white rounded-full flex items-center justify-center font-black text-xl mx-auto">2</div><h3 class="font-bold mt-4">Select Platform</h3><p class="text-slate-600">Choose Upwork, Fiverr, PayPal, Wise, Payoneer or Grey</p></div>
+      <div><div class="w-14 h-14 bg-emerald-600 text-white rounded-full flex items-center justify-center font-black text-xl mx-auto">3</div><h3 class="font-bold mt-4">Bill + Invoice</h3><p class="text-slate-600">Get exact gross amount + download professional PDF invoice with W-8BEN note</p></div>
+    </div>
+    <div class="text-center mt-10"><a href="https://netrate-pro.vercel.app/" class="bg-emerald-600 text-white px-8 py-4 rounded-full font-bold inline-block">Start Calculating — It's Free →</a></div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="bg-slate-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-3xl font-black">Built For African Freelancers, By An African Freelancer</h2>
+        <p class="text-slate-300 mt-4">No more Excel sheets. No more guessing. No more losing money because of hidden fees.</p>
+        <ul class="mt-6 space-y-3">
+          <li>✅ Reverse Gross-to-Net Calculator</li>
+          <li>✅ Professional International PDF Invoice</li>
+          <li>✅ W-8BEN Tax Exemption Note Included</li>
+          <li>✅ Real FX Spread Calculation</li>
+          <li>✅ No Signup, No Fees, No Wahala</li>
+        </ul>
+      </div>
+      <div class="bg-white text-slate-900 rounded-3xl p-6">
+        <h3 class="font-bold">What Freelancers Say</h3>
+        <p class="italic mt-4">"I was undercharging by $73 on every $500 invoice. This tool showed me in 10 seconds. Game changer."</p>
+        <p class="font-bold mt-3">— Adaeze, Upwork Designer, Lagos</p>
+        <p class="italic mt-5">"My US client was impressed with my invoice. The W-8BEN note made me look very professional."</p>
+        <p class="font-bold mt-3">— Ibrahim, Fiverr Developer, Kaduna</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ - SEO GOLD -->
+  <section class="max-w-4xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-black text-center">Frequently Asked Questions</h2>
+    <div class="space-y-4 mt-8">
+      <details class="border rounded-xl p-5"><summary class="font-bold cursor-pointer">How much should I charge on Upwork to receive $500?</summary><p class="text-slate-600 mt-2">You need to bill around $573 on Upwork to receive $500 after 10% fee and FX spread. Use NetRate Pro to calculate your exact amount based on your platform.</p></details>
+      <details class="border rounded-xl p-5"><summary class="font-bold cursor-pointer">What is W-8BEN for freelancers?</summary><p class="text-slate-600 mt-2">W-8BEN is a US IRS form for non-US persons to claim tax exemption or reduced withholding when working with US clients. NetRate Pro includes the note on your invoice.</p></details>
+      <details class="border rounded-xl p-5"><summary class="font-bold cursor-pointer">Is NetRate Pro really free?</summary><p class="text-slate-600 mt-2">Yes. 100% free, no signup, no hidden fees. Built to help African freelancers get paid fairly.</p></details>
+      <details class="border rounded-xl p-5"><summary class="font-bold cursor-pointer">Which platforms are supported?</summary><p class="text-slate-600 mt-2">Upwork, Fiverr, Payoneer, Wise, PayPal and Grey.</p></details>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="max-w-7xl mx-auto px-6 pb-20">
+    <div class="hero-bg text-white rounded-3xl p-10 text-center">
+      <h2 class="text-3xl md:text-4xl font-black">Your Next Invoice Should Pay You Fully.</h2>
+      <p class="text-slate-300 mt-3">Join 1,200+ African freelancers who stopped losing money.</p>
+      <a href="https://netrate-pro.vercel.app/" class="bg-emerald-500 px-8 py-4 rounded-full font-bold inline-block mt-6">Calculate My Rate Now — Free →</a>
+    </div>
+  </section>
+
+  <footer class="border-t py-8 text-center text-sm text-slate-500">
+    © 2026 NetRate Pro • Built for African Freelancers • <a href="https://netrate-pro.vercel.app/" class="underline">netrate-pro.vercel.app</a>
+  </footer>
+
+</body>
+</html>
